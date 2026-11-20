@@ -1,0 +1,11 @@
+{
+  "name": "ebay-active-listings-api-examples",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node request.mjs"
+  }
+}

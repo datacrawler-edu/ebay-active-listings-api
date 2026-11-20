@@ -1,0 +1,144 @@
+{
+  "repository": {
+    "name": "ebay-active-listings-api",
+    "description": "Python, JavaScript and cURL examples for eBay active listing searches, seller monitoring and CSV exports through Apify.",
+    "homepage": "https://apify.com/datascraperes/ebay-active-listings-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "eBay Active Listings Scraper & Seller Monitor",
+    "id": "datascraperes/ebay-active-listings-scraper",
+    "storeUrl": "https://apify.com/datascraperes/ebay-active-listings-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~ebay-active-listings-scraper",
+    "description": "Collect current eBay listing prices, shipping, watch counts and seller data from 11 marketplaces."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/ebay-active-listings-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "keywords",
+      "inputLabel": "Search keywords",
+      "inputSummary": "Enter product keywords and choose the eBay marketplace. Add seller usernames to limit the search.",
+      "exportFormats": [
+        "JSON",
+        "CSV"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "eBay Active Listings API",
+    "secondaryKeywords": [
+      "eBay seller monitoring API",
+      "eBay listing price CSV export",
+      "eBay active listings Python"
+    ],
+    "topics": [
+      "ebay",
+      "apify",
+      "python",
+      "web-scraping",
+      "ecommerce",
+      "csv-export"
+    ],
+    "longTailIntents": [
+      "Compare eBay asking prices with shipping",
+      "Verify and monitor an eBay seller",
+      "Export eBay active listings to CSV"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/collect_listings.py",
+      "examples/python/batch_keywords.py",
+      "examples/python/export_listings_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Apify pay per event",
+    "unit": "one unique active listing saved to the Dataset",
+    "price": "See the current Pricing tab on Apify."
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/ebay-active-listings-api",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/ebay-active-listings-api",
+    "githubToActorUrl": "https://apify.com/datascraperes/ebay-active-listings-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "eBay active listings integration examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/ebay-active-listings-api",
+      "eBay active listings API Python seller monitor"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/ebay-active-listings-api/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/ebay-active-listings-scraper?fpr=edudata"
+  }
+}

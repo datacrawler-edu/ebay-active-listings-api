@@ -1,0 +1,35 @@
+[
+  {
+    "resultId": "US:880130698217",
+    "itemId": "880130698217",
+    "marketplace": "US",
+    "title": "iPhone 15 PRO - 128GB - Caméra AV HS ⚠️",
+    "url": "https://www.ebay.com/itm/880130698217",
+    "price": 373.97,
+    "currency": "USD",
+    "priceText": "$373.97",
+    "bidCount": 21,
+    "buyingFormat": "auction",
+    "condition": "Pre-Owned",
+    "shippingText": "+$16.44 delivery",
+    "shippingCost": 16.44,
+    "totalPrice": 390.41,
+    "sellerUsername": "tbf.industrie",
+    "sellerFeedbackPercent": 100,
+    "sellerFeedbackScore": null,
+    "itemLocation": "France",
+    "imageUrl": "https://i.ebayimg.com/images/g/SFMAAeSwixZq~iRm/s-l225.jpg",
+    "watchCount": 10,
+    "itemSpecifics": {
+      "Condition": "Used",
+      "Quantity": "1 available",
+      "Item number": "880130698217",
+      "Résolution de l'appareil photo": "12,0 MP",
+      "Couleur": "Gris"
+    },
+    "endDate": "2026-11-21T22:27:15.000Z",
+    "keyword": "iphone 15 pro",
+    "page": 1,
+    "scrapedAt": "2026-11-20T14:47:20.921549+00:00"
+  }
+]
